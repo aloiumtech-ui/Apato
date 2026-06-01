@@ -62,7 +62,7 @@
             <div class="grid grid-cols-2 gap-4 mb-6 text-left">
                 <div class="bg-white/[0.01] border border-white/5 p-4 rounded-xl">
                     <div class="text-xs font-mono text-slate-500 uppercase tracking-wider mb-1">Modello Finanziario</div>
-                    <div class="text-sm font-bold text-white">0% Provvigione <span class="text-xs font-normal text-slate-400">(Flat Fee)</span></div>
+                    <div class="text-sm font-bold text-white">0% Provvigione <span class="text-xs font-normal text-slate-400">(Tariffa Flat)</span></div>
                 </div>
                 <div class="bg-white/[0.01] border border-white/5 p-4 rounded-xl">
                     <div class="text-xs font-mono text-slate-500 uppercase tracking-wider mb-1">Risparmio Medio Stimato</div>
@@ -96,6 +96,12 @@
                         Richiedi accesso alla sandbox di test
                     </button>
                 </form>
+
+                <!-- Micro-copy Trasparenza Legale sotto il Bottone -->
+                <div class="mt-4 flex flex-col sm:flex-row justify-between gap-2 text-[10px] text-slate-500 border-t border-white/5 pt-3">
+                    <span class="flex items-center gap-1">🛡️ <strong class="text-slate-400">Nessun Vincolo:</strong> Zero esclusive. Libero di vendere privatamente.</span>
+                    <span class="flex items-center gap-1">⚖️ <strong class="text-slate-400">Conformità:</strong> Contratti standard CCIAA Milano.</span>
+                </div>
             </div>
 
             <!-- INFO SOTTO LA WAITLIST: Onboarding Pipeline in 3 step -->
@@ -104,15 +110,15 @@
                 <div class="grid grid-cols-3 gap-2 text-center">
                     <div class="p-2">
                         <div class="text-xs font-bold text-slate-300 mb-1">1. Screening</div>
-                        <p class="text-[11px] text-slate-500 leading-snug">Verifica dell'identità tramite protocollo digitale sicuro.</p>
+                        <p class="text-[11px] text-slate-500 leading-snug">Verifica preliminare di idoneità dell'immobile nella zona operativa.</p>
                     </div>
                     <div class="p-2 border-x border-white/5">
-                        <div class="text-xs font-bold text-slate-300 mb-1">2. Audit Catastale</div>
-                        <p class="text-[11px] text-slate-500 leading-snug">Analisi automatica della documentazione dell'immobile.</p>
+                        <div class="text-xs font-bold text-slate-300 mb-1">2. Audit Digitale</div>
+                        <p class="text-[11px] text-slate-500 leading-snug">Pre-screening istantaneo via AI dei documenti e delle planimetrie.</p>
                     </div>
                     <div class="p-2">
                         <div class="text-xs font-bold text-slate-300 mb-1">3. Live Listing</div>
-                        <p class="text-[11px] text-slate-500 leading-snug">Inserimento nel network P2P protetto.</p>
+                        <p class="text-[11px] text-slate-500 leading-snug">Validazione della conformità e inserimento nel circuito protetto P2P.</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +126,7 @@
         </div>
     </main>
 
-    <!-- Bento Grid Features (Vedi image_d42862.png) -->
+    <!-- Bento Grid Features -->
     <section class="max-w-5xl mx-auto px-6 py-20 border-t border-white/5">
         <div class="grid md:grid-cols-3 gap-6">
             
@@ -176,6 +182,59 @@
                 </div>
             </div>
 
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Pricing, Trasparenza e Manleva Legale -->
+    <section class="max-w-5xl mx-auto px-6 py-16 border-t border-white/5 bg-gradient-to-b from-slate-950/40 to-transparent rounded-3xl mb-12">
+        <div class="max-w-3xl mx-auto text-center mb-12">
+            <div class="text-indigo-400 font-mono text-xs uppercase tracking-widest mb-2">// COST STRUCTURE & TRANSPARENCY</div>
+            <h2 class="text-2xl md:text-3xl font-bold text-white">Tariffe fisse e trasparenti. Zero provvigioni percentuali.</h2>
+            <p class="text-sm text-slate-400 mt-2">Nessuna commissione legata al valore dell'immobile. Dividiamo i costi operativi equamente e senza sorprese.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <!-- Box Venditore -->
+            <div class="bg-slate-900/30 border border-white/5 p-6 rounded-xl flex flex-col justify-between">
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-4 flex items-center gap-2">
+                        <span class="px-2 py-0.5 rounded bg-indigo-500/10 text-indigo-400 text-[10px] font-mono font-bold">VENDITORE</span>
+                        Gestione e Infrastruttura P2P
+                    </h4>
+                    <ul class="space-y-3 text-xs text-slate-400">
+                        <li class="flex items-start gap-2">✓ <span><strong class="text-slate-200">Fee di Piattaforma: €490</strong> (Generazione contratti + coordinamento Escrow).</span></li>
+                        <li class="flex items-start gap-2">✓ <span><strong class="text-slate-200">Certificazione Catastale (RRE):</strong> Se possiedi già il documento o hai un tuo geometra, il costo è <strong class="text-emerald-400">€0</strong>. In alternativa, puoi richiedere un tecnico convenzionato a tariffa fissa senza ricarichi.</span></li>
+                    </ul>
+                </div>
+                <div class="mt-6 p-3 bg-indigo-500/5 border border-indigo-500/10 rounded-lg text-[11px] font-semibold text-indigo-300">
+                    ⚡ Promo Beta Milano: La fee di Apato (€490) è azzerata. Resta a tuo carico solo il costo del tecnico abilitato, se decidi di richiederlo.
+                </div>
+            </div>
+            
+            <!-- Box Acquirente -->
+            <div class="bg-slate-900/30 border border-white/5 p-6 rounded-xl flex flex-col justify-between">
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-4 flex items-center gap-2">
+                        <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-[10px] font-mono font-bold">ACQUIRENTE</span>
+                        Validazione e Garanzia d'Acquisto
+                    </h4>
+                    <ul class="space-y-3 text-xs text-slate-400">
+                        <li class="flex items-start gap-2">✓ <span><strong class="text-slate-200">Fee di Piattaforma: €490</strong> (Verifica documentale avanzata + custodia caparra).</span></li>
+                        <li class="flex items-start gap-2">✓ <span><strong class="text-slate-200">Provvigione d'Agenzia: 0%</strong> (Nessuna percentuale sul valore di acquisto).</span></li>
+                        <li class="flex items-start gap-2">✓ <span><strong class="text-slate-200">Trasparenza Totale:</strong> Accesso completo all'audit dell'immobile prima di formulare la proposta.</span></li>
+                    </ul>
+                </div>
+                <div class="mt-6 p-3 bg-emerald-500/5 border border-emerald-500/10 rounded-lg text-[11px] font-semibold text-emerald-300">
+                    🛡️ Garanzia Escrow: La caparra confirmatoria rimane bloccata in un conto di garanzia terzo fino al giorno del rogito notarile.
+                </div>
+            </div>
+        </div>
+
+        <!-- Clausola di Manleva Legale Protettiva -->
+        <div class="mt-10 p-5 bg-slate-950/60 border border-white/5 rounded-xl max-w-4xl mx-auto">
+            <p class="text-[10px] md:text-[11px] text-slate-500 leading-relaxed text-center">
+                <strong class="text-slate-400">Disclaimer di Autonomia Fiscale e Legale:</strong> Apato non opera come mediatore immobiliare ai sensi dell'art. 1754 c.c. e non svolge attività di intermediazione né percepisce provvigioni sulle compravendite. Apato fornisce esclusivamente un'infrastruttura tecnologica e software SaaS per agevolare lo scambio autonomo di informazioni e documenti tra privati. Tutti i modelli contrattuali generati ricalcano i formulari depositati presso le Camere di Commercio competenti. I controlli tecnici profondi e le certificazioni obbligatorie per legge vengono eseguiti e firmati in totale responsabilità da professionisti e tecnici abilitati terzi iscritti agli albi professionali.
+            </p>
         </div>
     </section>
 
