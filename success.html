@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richiesta Inviata | Apato</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: #030712;
+            background-image: radial-gradient(at 50% 50%, rgba(79, 70, 229, 0.12) 0px, transparent 50%);
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen text-slate-200 px-4">
+
+    <div class="max-w-md w-full text-center space-y-6 border border-slate-800/80 bg-slate-900/40 p-8 rounded-2xl backdrop-blur-xl shadow-2xl">
+        <!-- Icona Check -->
+        <div class="mx-auto w-16 h-16 bg-indigo-500/10 rounded-full flex items-center justify-center border border-indigo-500/30">
+            <svg class="w-8 h-8 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+            </svg>
+        </div>
+
+        <div class="space-y-3">
+            <h1 class="text-2xl font-bold tracking-tight text-white">Richiesta inviata.</h1>
+            <p class="text-sm text-slate-400 leading-relaxed">
+                Abbiamo ricevuto i tuoi dati. Trattandosi di una beta a numero chiuso (max 5 immobili su Milano), analizziamo le richieste una a una per evitare bot e spam.
+            </p>
+            <p class="text-sm text-slate-400 leading-relaxed">
+                Ti risponderemo via e-mail **entro le prossime ore** per confermarti se il tuo slot è attivo e darti le istruzioni per configurare il tuo annuncio a fee zero.
+            </p>
+        </div>
+
+        <div class="pt-4 border-t border-slate-800/60">
+            <a href="https://aloiumtech-ui.github.io/Apato/" class="text-xs font-semibold text-indigo-400 hover:text-indigo-300 transition-colors duration-200">
+                ← Torna alla home
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
