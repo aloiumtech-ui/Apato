@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aloiumtech-ui.github.io/Apato/sitemap.xml
